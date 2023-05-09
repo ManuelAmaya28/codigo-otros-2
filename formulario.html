@@ -26,15 +26,22 @@
       <option value="vnzl">Venezolana</option>
     </select>
     <br />
-    <input type="submit">
+<!-- Se agrega ID -->
+    <input type="submit" id="BtnEnviar">
   </form>
 
   <div>
     <h2>Lista de invitados</h2>
 
+<!--     Se crea divs para imprimir tabla de invitados -->
+    <div id="lista">
+      <div id="elementos"></div> 
+    </div> 
   </div>
 
-  <script src="../formulario.js"></script>
+  </div>
+<!--  Se corrige el source a ./formulario para una relacion correcta al JS -->
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
